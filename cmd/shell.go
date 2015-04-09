@@ -59,6 +59,8 @@ type Config struct {
 		AuthKey  string
 		Profile  string
 		TestMode bool
+		DBDriver string
+		DBName   string
 	}
 
 	SA struct {
